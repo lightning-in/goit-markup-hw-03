@@ -1,0 +1,291 @@
+:root {
+  /* color */
+  --body-background-color: #ffffff;
+  --body-color: #757575;
+  --color-header: #2196f3;
+  --logo: #000000;
+  --web-logo: #2196f3;
+  /* color-logo (hover,focus) */
+  --color-logo: #2196f3;
+  /* end-logo-color */
+  --menu-studio: #000000;
+  --hero-one: #757575;
+  --hero-one-background-color: #2f303a;
+  --hero-title: #ffffff;
+  --button-hero: #ffffff;
+  --button-hero-background-color: #2196f3;
+  --benefits-title: #212121;
+  --two-title: #212121;
+  --comande-background-color: #f5f4fa;
+  --name-title: #212121;
+  --work-title: #757575;
+  --footer-background-color: #000000;
+  --white-Studio: #ffffff;
+  --contacts-list: rgba(255, 255, 255, 0.6);
+  --contacts-list-hfa: #ffffff;
+  --button-portfolio: #212121;
+  --button-portfolio-hf-background: #2196f3;
+  --button-portfolio-hf: #ffffff;
+  --name-portfolio-link: #212121;
+  --work-definition: #757575;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+body {
+  background-color: var(--body-background-color);
+  font-family: Roboto, sans-serif;
+  color: var(--body-color);
+}
+/* -- header page 1-- */
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: var(--logo);
+  text-decoration: none;
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--color-logo);
+}
+
+.web-logo {
+  color: var(--web-logo);
+}
+
+.menu {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  list-style: none;
+}
+
+.menu-studio {
+  text-decoration: none;
+  color: var(--menu-studio);
+}
+.menu-studiou:hover,
+.menu-studio:focus,
+.menu-studio:active {
+  color: var(--color-header);
+}
+
+.contacts-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.23;
+  letter-spacing: 0.02em;
+  list-style: none;
+}
+
+.mail-link,
+.tel-link {
+  color: var(--hero-one);
+  text-decoration: none;
+}
+
+.mail-link:hover,
+.mail-link:focus,
+.tel-link:hover,
+.tel-link:focus {
+  color: var(--color-header);
+}
+/* -- end header -- */
+
+/* main */
+/* hero */
+.hero-one {
+  background-color: var(--hero-one-background-color);
+  text-align: center;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--hero-title);
+}
+
+.button-hero {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--button-hero);
+  cursor: pointer;
+  background-color: var(--button-hero-background-color);
+}
+
+/* end hero */
+
+/* benefits */
+
+.benefits-list {
+  list-style: none;
+}
+.benefits-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--benefits-title);
+}
+
+.description {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/* end benefits */
+
+/* Чем мы занимаемся */
+.When-gob {
+  list-style: none;
+}
+
+.two-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--two-title);
+}
+
+/* Наша команда */
+.comande {
+  background-color: var(--comande-background-color);
+}
+.comande-img {
+  list-style: none;
+}
+
+.name-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.26;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--name-title);
+}
+
+.work-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--work-title);
+}
+/* end main */
+
+/* footer */
+.footer {
+  background-color: var(--footer-background-color);
+}
+.white-Studio {
+  color: var(--white-Studio);
+}
+
+.contacts {
+  list-style: none;
+  font-family: Roboto, sans-serif;
+}
+.target,
+.mail-contacts,
+.tel-contacts {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--contacts-list);
+  text-decoration: none;
+}
+
+.target:hover,
+.target:focus,
+.target:active,
+.mail-contactst:hover,
+.mail-contacts:focus,
+.mail-contacts:active,
+.tel-contacts:hover,
+.tel-contacts:focus,
+.tel-contactst:active {
+  color: var(--contacts-list-hfa);
+}
+
+/* end page-1*/
+
+/* page-2 */
+
+/* main */
+/* menu */
+.menu-portfolio {
+  list-style: none;
+}
+.button-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--button-portfolio);
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+  background-color: var(--button-portfolio-hf-background);
+  color: var(--button-portfolio-hf);
+}
+/* end menu */
+
+/* portfolio */
+.portfolio {
+  list-style: none;
+}
+.img-portfolio {
+  text-decoration: none;
+}
+.name-portfolio-link {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--name-portfolio-link);
+}
+
+.work-definition {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--work-definition);
+}
+/* end portfolio */
