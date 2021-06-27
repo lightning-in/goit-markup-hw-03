@@ -50,9 +50,6 @@ ol {
 img {
   display: block;
 }
-a {
-  margin-right: 0px;
-}
 
 body {
   background-color: var(--body-background-color);
