@@ -47,12 +47,36 @@ ol {
   padding-left: 0;
 }
 
+img {
+  display: block;
+}
+a {
+  margin-right: 0px;
+}
+
 body {
   background-color: var(--body-background-color);
   font-family: Roboto, sans-serif;
   color: var(--body-color);
 }
+
+.container {
+  width: 1200px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /* -- header page 1-- */
+.header {
+  padding-top: 30px;
+  padding-bottom: 31px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -62,6 +86,12 @@ body {
   letter-spacing: 0.03em;
   color: var(--logo);
   text-decoration: none;
+  margin-right: 93px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
 }
 
 .logo:hover,
@@ -79,8 +109,12 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   list-style: none;
+  display: flex;
 }
 
+.menu-item:not(:last-child) {
+  margin-right: 50px;
+}
 .menu-studio {
   text-decoration: none;
   color: var(--menu-studio);
@@ -97,8 +131,13 @@ body {
   line-height: 1.23;
   letter-spacing: 0.02em;
   list-style: none;
+  display: flex;
+  margin-left: auto;
 }
 
+.mail-link {
+  margin-right: 48px;
+}
 .mail-link,
 .tel-link {
   color: var(--hero-one);
