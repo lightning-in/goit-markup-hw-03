@@ -24,6 +24,7 @@
   --contacts-list: rgba(255, 255, 255, 0.6);
   --contacts-list-hfa: #ffffff;
   --button-portfolio: #212121;
+  --button-portfolio-background: #f5f4fa;
   --button-portfolio-hf-background: #2196f3;
   --button-portfolio-hf: #ffffff;
   --name-portfolio-link: #212121;
@@ -63,7 +64,10 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 /* -- header page 1-- */
 .header {
   padding-top: 30px;
@@ -187,10 +191,6 @@ body {
 /* end hero */
 
 /* benefits */
-.benefits {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 .benefits-list {
   list-style: none;
@@ -220,9 +220,6 @@ body {
 /* end benefits */
 
 /* Чем мы занимаемся */
-.When-gob {
-  list-style: none;
-}
 
 .two-title {
   font-weight: 700;
@@ -233,12 +230,30 @@ body {
   color: var(--two-title);
 }
 
+.When-gob {
+  list-style: none;
+  display: flex;
+}
+
+.When-gob-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 /* Наша команда */
 .comande {
   background-color: var(--comande-background-color);
 }
 .comande-img {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.comande-img-item {
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
 .name-title {
@@ -271,7 +286,13 @@ body {
 .contacts {
   list-style: none;
   font-family: Roboto, sans-serif;
+  margin-top: 20px;
 }
+
+.contacts-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 .target,
 .mail-contacts,
 .tel-contacts {
@@ -302,16 +323,28 @@ body {
 
 /* main */
 /* menu */
+
 .menu-portfolio {
   list-style: none;
+  display: flex;
+  justify-content: center;
 }
+
+.menu-portfolio-item:not(:last-child) {
+  margin-right: 8px;
+}
+
 .button-portfolio {
+  height: 38px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--button-portfolio);
+  cursor: pointer;
+  background-color: var(--button-portfolio-background);
 }
 
 .button-portfolio:hover,
@@ -324,7 +357,16 @@ body {
 /* portfolio */
 .portfolio {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
 }
+.portfolio-item {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
 .img-portfolio {
   text-decoration: none;
 }
