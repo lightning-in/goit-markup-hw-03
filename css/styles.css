@@ -127,7 +127,6 @@ body {
 .menu-studio:active {
   color: var(--color-header);
 }
-
 .contacts-list {
   font-weight: 500;
   font-size: 14px;
@@ -186,6 +185,7 @@ body {
   color: var(--button-hero);
   cursor: pointer;
   background-color: var(--button-hero-background-color);
+  border: none;
 }
 
 /* end hero */
@@ -231,6 +231,7 @@ body {
 }
 
 .When-gob {
+  margin-top: 42px;
   list-style: none;
   display: flex;
 }
@@ -242,6 +243,10 @@ body {
 /* Наша команда */
 .comande {
   background-color: var(--comande-background-color);
+}
+
+.big {
+  margin-bottom: 50px;
 }
 .comande-img {
   list-style: none;
@@ -345,6 +350,7 @@ body {
   color: var(--button-portfolio);
   cursor: pointer;
   background-color: var(--button-portfolio-background);
+  border: none;
 }
 
 .button-portfolio:hover,
@@ -365,6 +371,8 @@ body {
 .portfolio-item {
   margin-left: 30px;
   margin-top: 30px;
+  border: 1px dashed #eeeeee;
+  border-style: solid;
 }
 
 .img-portfolio {
