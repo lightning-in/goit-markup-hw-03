@@ -385,6 +385,7 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--name-portfolio-link);
+  padding-left: 24px;
 }
 
 .work-definition {
@@ -393,5 +394,6 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--work-definition);
+  text-indent: 24px;
 }
 /* end portfolio */
