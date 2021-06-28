@@ -90,11 +90,6 @@ body {
   margin-right: 93px;
 }
 
-.nav {
-  display: flex;
-  align-items: center;
-}
-
 .logo:hover,
 .logo:focus {
   color: var(--color-logo);
@@ -102,6 +97,11 @@ body {
 
 .web-logo {
   color: var(--web-logo);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
 }
 
 .menu {
@@ -122,11 +122,12 @@ body {
   color: var(--menu-studio);
 }
 
-.menu-studiou:hover,
+.menu-studio:hover,
 .menu-studio:focus,
 .menu-studio:active {
   color: var(--color-header);
 }
+
 .contacts-list {
   font-weight: 500;
   font-size: 14px;
@@ -313,12 +314,12 @@ body {
 .target:hover,
 .target:focus,
 .target:active,
-.mail-contactst:hover,
+.mail-contacts:hover,
 .mail-contacts:focus,
 .mail-contacts:active,
 .tel-contacts:hover,
 .tel-contacts:focus,
-.tel-contactst:active {
+.tel-contacts:active {
   color: var(--contacts-list-hfa);
 }
 
