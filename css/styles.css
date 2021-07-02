@@ -19,7 +19,7 @@
   --comande-background-color: #f5f4fa;
   --name-title: #212121;
   --work-title: #757575;
-  --footer-background-color: #000000;
+  --footer-background-color: #2f303a;
   --white-Studio: #ffffff;
   --contacts-list: rgba(255, 255, 255, 0.6);
   --contacts-list-hfa: #ffffff;
@@ -29,6 +29,7 @@
   --button-portfolio-hf: #ffffff;
   --name-portfolio-link: #212121;
   --work-definition: #757575;
+  --background-color-comande: #ffffff;
 }
 h1,
 h2,
@@ -78,7 +79,9 @@ body {
   display: flex;
   align-items: center;
 }
-
+.border-bottom {
+  border-bottom: 1px solid #eeeeee;
+}
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -271,7 +274,9 @@ body {
 }
 
 .background-color-comande {
-  background-color: #ffffff;
+  background-color: var(--background-color-comande);
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .name-title {
@@ -281,6 +286,7 @@ body {
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--name-title);
+  margin-bottom: 10px;
 }
 
 .work-title {
@@ -300,11 +306,13 @@ body {
 .white-Studio {
   color: var(--white-Studio);
 }
+.margin-footer {
+  margin-bottom: 20px;
+}
 
 .contacts {
   list-style: none;
   font-family: Roboto, sans-serif;
-  margin-top: 20px;
 }
 
 .contacts-item:not(:last-child) {
@@ -342,6 +350,10 @@ body {
 /* main */
 /* menu */
 
+.main-menu {
+  padding-bottom: 0px;
+}
+
 .menu-portfolio {
   list-style: none;
   display: flex;
@@ -363,7 +375,9 @@ body {
   color: var(--button-portfolio);
   cursor: pointer;
   background-color: var(--button-portfolio-background);
-  border: none;
+  border: 1 px solid #000000;
+  padding-left: 22px;
+  padding-right: 22px;
 }
 
 .button-portfolio:hover,
@@ -391,13 +405,18 @@ body {
 .img-portfolio {
   text-decoration: none;
 }
+.portfolio-padding {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+}
+
 .name-portfolio-link {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--name-portfolio-link);
-  padding-left: 24px;
 }
 
 .work-definition {
@@ -406,6 +425,5 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--work-definition);
-  text-indent: 24px;
 }
 /* end portfolio */
